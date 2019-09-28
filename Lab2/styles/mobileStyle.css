@@ -1,0 +1,91 @@
+﻿.nav .nav-element {
+    display: block;
+}
+
+#informationalPage #informationSection {
+    display: block;
+    border-top:solid;
+    width: 100%;
+    border-right:none;
+}
+
+header {
+    margin-top: 325px;
+}
+
+#informationalPage {
+    display: inline;
+}
+
+#nav-group {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 2;
+    text-align: center;
+    background-color:white;
+}
+
+.nav {
+    display: none;
+}
+
+#menu-btn {
+    position:fixed;
+    top:0px;
+    left:0px;
+    display: block;
+    padding-top: 18px;
+    width: 100%;
+    box-sizing: border-box;
+    z-index:3;
+}
+
+#menu-icon {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 43px;
+    background-color: white;
+}
+
+#topImageContainer {
+    flex-direction:column;
+    flex-flow: wrap;
+    height: 700px;
+}
+
+.imageContainer .imageContainer {
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+#photoGalleryPage{
+    height:1650px;
+    border:none;
+    border-top:solid;
+}
+
+header img{
+    height:100%;
+    width:100%;
+}
+
+#form tr {
+    border:none;
+}
+
+    #form tr td {
+        padding: 5px;
+        text-align: left;
+    }
+
+#content{
+    padding:5px;
+}
